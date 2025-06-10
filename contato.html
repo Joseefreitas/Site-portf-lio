@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <title>Eduardo - Portfólio</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,21 +55,22 @@
 </header>
 
 <main>
-    <section class="content-page">
+    <main>
+    <section class="formulario">
         <div class="interface">
-            <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
-            <p>No meu primeiro período na CESAR school desenvolvi o projeto a seguir:</p>
-            <img src="imagens/imagem_formitas.jpg" alt="Imagem do projeto Formitas">
-            
-            <div class="project-card">
-                <h3>Formitas</h3>
-                <p>
-                    Formitas é um jogo educativo acessível voltado para crianças com deficiência intelectual, com foco na identificação de formas geométricas e suas letras iniciais. O projeto busca promover o desenvolvimento da coordenação motora, do raciocínio lógico e da associação simbólica entre forma e letra, tornando o aprendizado mais inclusivo, lúdico e eficaz.
-                </p>
-                <a href="https://github.com/sophiabritoa/FORMITAS" target="_blank" rel="noopener noreferrer">Ver no GitHub →</a>
-            </div>
+            <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+            <form action="mailto:jose.eduardo.b.freitas@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="nome" placeholder="Seu nome completo:" required>
+                <input type="email" name="email" placeholder="Seu e-mail:" required>
+                <input type="text" name="assunto" placeholder="Assunto:">
+                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                <div class="btn-enviar">
+                    <button type="submit">ENVIAR E-MAIL</button>
+                </div>
+            </form>
         </div>
     </section>
+</main>
 </main>
 
 <footer>
